@@ -119,9 +119,9 @@ input, select, textarea {
 		color: #585858;
 		/* font-family: 'Source Sans Pro', 'Hiragino Kaku Gothic ProN', Helvetica, sans-serif; */
 		font-family: "Helvetica Neue",sans-serif,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
-		font-size: 16pt;
+		/* font-size: 16pt;
 		font-weight: 300;
-		line-height: 1.75;
+		line-height: 1.75; */
 	}
 
 		@media screen and (max-width: 1680px) {

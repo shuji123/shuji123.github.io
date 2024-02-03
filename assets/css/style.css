@@ -1,0 +1,5 @@
+main #banner {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}

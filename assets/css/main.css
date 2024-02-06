@@ -119,7 +119,7 @@ input, select, textarea {
 		color: #585858;
 		/* font-family: 'Source Sans Pro', 'Hiragino Kaku Gothic ProN', Helvetica, sans-serif; */
 		font-family: "Helvetica Neue",sans-serif,"Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
-		font-size: 16pt;
+		font-size: 14pt;
 		/* font-weight: 300; */
 		line-height: 1.75;
 	}
@@ -127,7 +127,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 14pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -135,7 +135,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 10pt;
 			}
 
 		}

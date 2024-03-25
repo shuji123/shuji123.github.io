@@ -3329,3 +3329,10 @@ input, select, textarea {
 			}
 
 		}
+
+
+div.parent_box {
+/*  width: 650px;*/
+  display: flex;
+  gap: 24px 16px;
+}

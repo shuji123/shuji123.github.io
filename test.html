@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collaborators Map</title>
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f8f8;
+    }
+
+    /* Wrapper for the entire content */
+    #wrapper {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+
+    /* Header */
+    #header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #333;
+      color: white;
+      padding: 20px 0;
+      z-index: 1000;
+    }
+
+    #header .inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* Menu */
+    #menu {
+      display: none;
+    }
+
+    /* Map Container */
+    .map-container {
+      position: relative;
+      height: 100vh;
+      background-image: url('images/World_map_blank_without_borders.svg'); /* Using your custom map image */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    /* Overlay for better visibility */
+    .map-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.3); /* Dark translucent overlay */
+    }
+
+    .collaborator {
+      position: absolute;
+      padding: 10px;
+      font-size: 16px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .collaborator:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+      transform: scale(1.1);
+    }
+
+    .collaborator1 {
+      top: 22%;
+      left: 30%;
+    }
+
+    .collaborator2 {
+      top: 45%;
+      left: 60%;
+    }
+
+    .collaborator3 {
+      top: 60%;
+      left: 40%;
+    }
+
+    /* Footer */
+    #footer {
+      background: #333;
+      color: white;
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    #footer .icons a {
+      margin: 0 10px;
+      font-size: 20px;
+      color: white;
+      text-decoration: none;
+    }
+
+    /* Main Content Area */
+    #main {
+      margin-top: 80px; /* Adjust for fixed header */
+      padding: 20px;
+    }
+
+    /* Mobile-friendly adjustments */
+    @media (max-width: 768px) {
+      .collaborator {
+        font-size: 14px;
+        padding: 8px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .collaborator {
+        font-size: 12px;
+        padding: 6px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Wrapper -->
+  <div id="wrapper">
+
+    <!-- Header -->
+    <header id="header">
+      <div class="inner">
+        <nav>
+          <ul>
+            <li><a href="#menu">Menu</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Menu -->
+    <nav id="menu">
+      <h2>Menu</h2>
+      <ul>
+        <li><a href="#FlowControl">Flow Control</a></li>
+        <li><a href="#WindTide">Wind & Tidal Energy</a></li>
+        <li><a href="#ForcePIV">Force estimation from PIV</a></li>
+        <li><a href="#Aerodynamics">Fundamental Aerodynamics</a></li>
+        <li><a href="#Swimming">Swimming of Microorganisms</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content Area -->
+    <div id="main">
+      <div class="inner">
+
+        <h1>Research Collaborators Map</h1>
+
+        <!-- Collaborators Map -->
+        <div class="map-container">
+          <div class="map-overlay"></div> <!-- Optional overlay for contrast -->
+
+          <!-- Collaborator 1 -->
+          <a href="https://www.cambridge.org" class="collaborator collaborator1" target="_blank">
+            Dr. Pascal Gehlert (University of Cambridge)
+          </a>
+
+          <!-- Collaborator 2 -->
+          <a href="https://www.kcl.ac.uk" class="collaborator collaborator2" target="_blank">
+            Dr. Holger Babinsky (King's College London)
+          </a>
+
+          <!-- Collaborator 3 -->
+          <a href="https://www.tuat.ac.jp" class="collaborator collaborator3" target="_blank">
+            Dr. Juan Li (Tokyo University of Agriculture and Technology)
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="inner">
+        <section>
+          <h2>Follow</h2>
+          <ul class="icons">
+            <li><a href="https://twitter.com/shu_otomo" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="https://www.researchgate.net/profile/Shuji-Otomo-2" class="icon brands style2 fa-researchgate"><span class="label">ResearchGate</span></a></li>
+            <li><a href="https://www.linkedin.com/in/sh%C5%ABji-%C5%8Dtomo-5ba225b7/" class="icon brands style2 fa-linkedin"><span class="label">Linkedin</span></a></li>
+            <li><a href="mailto:otomo@go.tuat.ac.jp" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+          </ul>
+        </section>
+        <ul class="copyright">
+          <li>&copy; Shūji Ōtomo. All rights reserved</li>
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>

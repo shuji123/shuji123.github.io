@@ -1,273 +1,222 @@
-<!DOCTYPE HTML>
-<!--
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Shūji Ōtomo</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<!-- Wrapper -->
-			<div id="wrapper">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shūji Ōtomo</title>
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" /> <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  <style>
+    /* Custom Movie Banner Styles */
+    .movie-banner {
+      width: 100%;
+      margin-bottom: 40px;
+      position: relative;
+    }
 
-				<!-- Header -->
-					<header id="header">
-						<div class="inner">
+    .swiper-container {
+      width: 100%;
+      height: 350px; /* Adjust the height as needed */
+      position: relative;
+    }
 
-							<!-- Logo -->
-								<!-- <a href="index.html" class="logo">
-									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Phantom</span>
-								</a> -->
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-							<!-- Nav -->
-								<nav>
-									<ul>
-										<li><a href="#menu">Menu</a></li>
-									</ul>
-								</nav>
+    .swiper-slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+      border-radius: 10px;
+    }
 
-						</div>
-					</header>
+    /* Hover effect on images */
+    .swiper-slide img:hover {
+      transform: scale(1.1);
+    }
 
-				<!-- Menu -->
-					<nav id="menu">
-						<h2>Menu</h2>
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="AboutMe.html">About me</a></li>
-							<li><a href="Research.html">Research</a></li>
-							<li><a href="Publications.html">Publications</a></li>
-							<!-- <li><a href="News.html">News</a></li> -->
-              				<!-- <li><a href="Gallery.html">Gallery</a></li> -->
-              				<li><a href="JPN.html">日本語</a></li>
-						</ul>
-					</nav>
+    /* Styling for navigation arrows */
+    .swiper-button-next, .swiper-button-prev {
+      color: #fff;
+      z-index: 10;
+      padding: 10px;
+    }
 
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
-							<header>
-								<h1>Shūji Ōtomo</h1>
-								<p>Assistant Profesor, Department of Mechanical Systems Engineering, Tokyo University of Agriculture and Technology</p>
-								<!-- <blockquote>The flow of the river is ceaseless and its water is never the same.
-									The bubbles that float in the pools, now vanishing, now foaming, are not of long duration: so in the world are man and his dwellings <br>
-								<i>Hōjōki (1212) by Kamo no Chōmei</i></blockquote> -->
-								<blockquote>
-								<!-- <p><strong>News</strong></p> -->
-								<strong>News</strong><br>
-								May 2025: A new paper on the heat transfer by plasma actuators is published in Int. J. Heat Mass Trans.! <a href="https://doi.org/10.1016/j.ijheatmasstransfer.2025.127136">Link to paper >></a><br>
-								Mar 2025: A new paper on the vortex force map method for PIV is published in Experiments in Fluids! <a href="https://link.springer.com/article/10.1007/s00348-025-03962-w">Link to paper >></a><br>
-								Mar 2025: Shuji is awarded a research grant from Exploratory Research Center on Life and Living Systems (ExCELSSS)!<br> 
-								<!-- June 2024: A new paper on the passive pitch aerofoil is now published in Physics of Fluids! <a href="https://doi.org/10.1063/5.0212626">Link to paper >></a><br> -->
-								<!-- Mar 2024: Shuji is awarded <a href="https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-24K17204">JSPS Grant-in-Aid for Early-Career Scientists</a>!<br> -->
-								<!-- Mar 2024: A new paper on the morphing blade is now published in Composite Structures! <a href="https://doi.org/10.1016/j.compstruct.2024.118090">Link to paper >></a><br> -->
-								<!-- Feb 2024: A new paper on a Savonius turbine is now published in Physics of Fluids! <a href="https://doi.org/10.1063/5.0180939">Link to paper >></a><br> -->
-								<!-- Dec 2023: Shuji is awarded <a href="https://dajf.org.uk/wp-content/uploads/September-2023-Approved-Grants-List.pdf">Daiwa Foundation Awards</a> together with Dr Juan Li of King's College London and Prof Yuichi Murai of Hokkaido University! <br> -->
-								<!-- June 2023: Shuji is appointed as an assistant professor at Tokyo University of Agricultre and Technology! <a href="images/prof_2023.jpeg" target="_blank" rel="noopener noreferrer">Photo >></a><br> -->
-								<!-- Nov 2022: Shūji is awarded a PhD! <a href="images/Graduation.jpeg" target="_blank" rel="noopener noreferrer">Photo >></a><br> -->
-								<!-- Dec 2021: Shūji successfully passed his viva!<br> -->
-								<!-- Nov 2021: Shūji is awarded a medal from School of Engineering, University of Edinburgh <a href="https://www.eng.ed.ac.uk/about/news/20211110/recognising-school%E2%80%99s-covid-19-heroes">Link to article >></a><br> -->
-								<!-- Sep 2021: A paper in AIAA Journal is published! <a href="https://arc.aiaa.org/doi/10.2514/1.J060808">Link to paper >></a><br> -->
-								<!-- Dec 2020: A paper in Experiments in Fluids is published! <a href="https://doi.org/10.1007/s00348-020-03095-2">Link to paper >></a> -->
-								</blockquote>
-							</header>
-							<section class="tiles">
-								<article class="style1">
-									<span class="image">
-										<img src="images/AboutMe_s.png" alt="" />
-									</span>
-									<a href="AboutMe.html">
-										<h2>About me</h2>
-										<div class="content">
-											<!-- <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p> -->
-										</div>
-									</a>
-								</article>
-								<article class="style2">
-									<span class="image">
-										<img src="images/naca0018.png" alt="" />
-									</span>
-									<a href="Research.html">
-										<h2>Research</h2>
-										<div class="content">
-											<!-- <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p> -->
-										</div>
-									</a>
-								</article>
-								<article class="style3">
-									<span class="image">
-										<img src="images/books.png" alt="" />
-									</span>
-									<a href="Publications.html">
-										<h2>Publications</h2>
-										<div class="content">
-											<!-- <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p> -->
-										</div>
-									</a>
-								</article>
-								<!-- <article class="style4">
-									<span class="image">
-										<img src="images/news.png" alt="" />
-									</span>
-									<a href="News.html">
-										<h2>News</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article> -->
-							<!-- 	<article class="style5">
-									<span class="image">
-										<img src="images/Karman_s.png" alt="" />
-									</span>
-									<a href="Gallery.html">
-										<h2>Gallery</h2>
-										<div class="content">
-											<!-- <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p> -->
-									<!-- 	</div>
-									</a> -->
-								<!-- </article> -->
-								<article class="style6">
-									<span class="image">
-										<img src="images/Cherry.jpeg" alt="" />
-									</span>
-									<a href="JPN.html">
-										<h2>日本語</h2>
-										<div class="content">
-											<!-- <p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p> -->
-										</div>
-									</a>
-								</article>
-								<!-- <article class="style2">
-									<span class="image">
-										<img src="images/pic07.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Ipsum</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style3">
-									<span class="image">
-										<img src="images/pic08.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Dolor</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style1">
-									<span class="image">
-										<img src="images/pic09.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Nullam</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style5">
-									<span class="image">
-										<img src="images/pic10.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Ultricies</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style6">
-									<span class="image">
-										<img src="images/pic11.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Dictum</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article>
-								<article class="style4">
-									<span class="image">
-										<img src="images/pic12.jpg" alt="" />
-									</span>
-									<a href="generic.html">
-										<h2>Pretium</h2>
-										<div class="content">
-											<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
-										</div>
-									</a>
-								</article> -->
-							</section>
-						</div>
-					</div>
+    /* Remove default background and the black ovals */
+    .swiper-button-next::after, .swiper-button-prev::after {
+      font-size: 30px;
+      color: #fff;
+      text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.6);
+    }
 
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<!-- <section>
-								<h2>Get in touch</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<input type="text" name="name" id="name" placeholder="Name" />
-										</div>
-										<div class="field half">
-											<input type="email" name="email" id="email" placeholder="Email" />
-										</div>
-										<div class="field">
-											<textarea name="message" id="message" placeholder="Message"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send" class="primary" /></li>
-									</ul>
-								</form>
-							</section> -->
-							<section>
-								<h2>Follow</h2>
-								<ul class="icons">
-									<li><a href="https://twitter.com/shu_otomo" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
-									<!-- <li><a href="https://scholar.google.co.uk/citations?user=FBMedoEAAAAJ&hl=en&oi=ao" class="ai ai-google-scholar-square"></a></li><span class="label"></span></a></li> -->
-									<li><a href="https://www.researchgate.net/profile/Shuji-Otomo-2" class="icon brands style2 fa-researchgate"><span class="label">ResearchGate</span></a></li>
-									<li><a href="https://www.linkedin.com/in/sh%C5%ABji-%C5%8Dtomo-5ba225b7/" class="icon brands style2 fa-linkedin"><span class="label">Linkedin</span></a></li>
-									<!-- <li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li> -->
-									<!-- <li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li> -->
-									<!-- <li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li> -->
-									<!-- <li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li> -->
-									<!-- <li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li> -->
-									<li><a href="mailto:otomo@go.tuat.ac.jp" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
-								</ul>
-							</section>
-							<section>
-								<a class="twitter-timeline" data-height="350" href="https://twitter.com/shu_otomo?ref_src=twsrc%5Etfw">Tweets by shu_otomo</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-							</section>
-							<ul class="copyright">
-								<li>&copy; Shūji Ōtomo. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</footer>
+    /* Styling for the slider container */
+    .swiper-button-next {
+      right: 10px;
+    }
 
-			</div>
+    .swiper-button-prev {
+      left: 10px;
+    }
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    /* Optional: Customize active/inactive state of the arrows */
+    .swiper-button-next:hover, .swiper-button-prev:hover {
+      color: #bbb; /* Change arrow color on hover */
+    }
+  </style>
+</head>
+<body class="is-preload">
 
-	</body>
+  <!-- Wrapper -->
+  <div id="wrapper">
+
+    <!-- Header -->
+    <header id="header">
+      <div class="inner">
+        <nav>
+          <ul>
+            <li><a href="#menu">Menu</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Menu -->
+    <nav id="menu">
+      <h2>Menu</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="AboutMe.html">About me</a></li>
+        <li><a href="Research.html">Research</a></li>
+        <li><a href="Publications.html">Publications</a></li>
+        <li><a href="JPN.html">日本語</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main -->
+    <div id="main">
+      <div class="inner">
+
+        <header>
+          <h1>Shūji Ōtomo</h1>
+          <p>Assistant Professor, Department of Mechanical Systems Engineering, Tokyo University of Agriculture and Technology</p>
+
+        </header>
+
+        <!-- Movie Banner Section with Swiper -->
+        <section class="movie-banner">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <!-- Swiper Slide 1 -->
+              <div class="swiper-slide">
+                <img src="images/PitchingNaca0018.png" alt="Movie 1" />
+              </div>
+              <!-- Swiper Slide 2 -->
+              <div class="swiper-slide">
+                <img src="images/Ctenophore_pathlines.jpg" alt="Movie 2" />
+              </div>
+              <!-- Swiper Slide 3 -->
+              <div class="swiper-slide">
+                <img src="images/SAVO_Turbulence.png" alt="Movie 3" />
+              </div>
+            </div>
+            <!-- Add Navigation Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </section>
+        <blockquote>
+                <!-- <p><strong>News</strong></p> -->
+                <strong>News</strong><br>
+                May 2025: A new paper on the heat transfer by plasma actuators is published in Int. J. Heat Mass Trans.! <a href="https://doi.org/10.1016/j.ijheatmasstransfer.2025.127136">Link to paper >></a><br>
+                Mar 2025: A new paper on the vortex force map method for PIV is published in Experiments in Fluids! <a href="https://link.springer.com/article/10.1007/s00348-025-03962-w">Link to paper >></a><br>
+                Mar 2025: Shuji is awarded a research grant from Exploratory Research Center on Life and Living Systems (ExCELSSS)!<br> 
+                <!-- June 2024: A new paper on the passive pitch aerofoil is now published in Physics of Fluids! <a href="https://doi.org/10.1063/5.0212626">Link to paper >></a><br> -->
+                <!-- Mar 2024: Shuji is awarded <a href="https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-24K17204">JSPS Grant-in-Aid for Early-Career Scientists</a>!<br> -->
+                <!-- Mar 2024: A new paper on the morphing blade is now published in Composite Structures! <a href="https://doi.org/10.1016/j.compstruct.2024.118090">Link to paper >></a><br> -->
+                <!-- Feb 2024: A new paper on a Savonius turbine is now published in Physics of Fluids! <a href="https://doi.org/10.1063/5.0180939">Link to paper >></a><br> -->
+                <!-- Dec 2023: Shuji is awarded <a href="https://dajf.org.uk/wp-content/uploads/September-2023-Approved-Grants-List.pdf">Daiwa Foundation Awards</a> together with Dr Juan Li of King's College London and Prof Yuichi Murai of Hokkaido University! <br> -->
+                <!-- June 2023: Shuji is appointed as an assistant professor at Tokyo University of Agricultre and Technology! <a href="images/prof_2023.jpeg" target="_blank" rel="noopener noreferrer">Photo >></a><br> -->
+                <!-- Nov 2022: Shūji is awarded a PhD! <a href="images/Graduation.jpeg" target="_blank" rel="noopener noreferrer">Photo >></a><br> -->
+                <!-- Dec 2021: Shūji successfully passed his viva!<br> -->
+                <!-- Nov 2021: Shūji is awarded a medal from School of Engineering, University of Edinburgh <a href="https://www.eng.ed.ac.uk/about/news/20211110/recognising-school%E2%80%99s-covid-19-heroes">Link to article >></a><br> -->
+                <!-- Sep 2021: A paper in AIAA Journal is published! <a href="https://arc.aiaa.org/doi/10.2514/1.J060808">Link to paper >></a><br> -->
+                <!-- Dec 2020: A paper in Experiments in Fluids is published! <a href="https://doi.org/10.1007/s00348-020-03095-2">Link to paper >></a> -->
+                </blockquote>
+
+        <section class="tiles">
+          <article class="style1">
+            <span class="image"><img src="images/AboutMe_s.png" alt="" /></span>
+            <a href="AboutMe.html"><h2>About me</h2></a>
+          </article>
+          <article class="style2">
+            <span class="image"><img src="images/naca0018.png" alt="" /></span>
+            <a href="Research.html"><h2>Research</h2></a>
+          </article>
+          <article class="style3">
+            <span class="image"><img src="images/books.png" alt="" /></span>
+            <a href="Publications.html"><h2>Publications</h2></a>
+          </article>
+          <article class="style6">
+            <span class="image"><img src="images/Cherry.jpeg" alt="" /></span>
+            <a href="JPN.html"><h2>日本語</h2></a>
+          </article>
+        </section>
+
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="inner">
+        <section>
+          <h2>Follow</h2>
+          <ul class="icons">
+            <li><a href="https://twitter.com/shu_otomo" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="https://www.researchgate.net/profile/Shuji-Otomo-2" class="icon brands style2 fa-researchgate"><span class="label">ResearchGate</span></a></li>
+            <li><a href="https://www.linkedin.com/in/sh%C5%ABji-%C5%8Dtomo-5ba225b7/" class="icon brands style2 fa-linkedin"><span class="label">Linkedin</span></a></li>
+            <li><a href="mailto:otomo@go.tuat.ac.jp" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+          </ul>
+        </section>
+        <ul class="copyright">
+          <li>&copy; Shūji Ōtomo. All rights reserved</li>
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'fade', // Adds smooth fade transition
+      slidesPerView: 1, // One slide at a time
+      autoplay: {
+        delay: 5000, // Change slides every 3 seconds
+        disableOnInteraction: false, // Continue autoplay after user interaction
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      loop: true, // Infinite loop for carousel
+    });
+  </script>
+
+</body>
 </html>
